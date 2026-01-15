@@ -14,21 +14,21 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 **Aegis Guardian** is a life-saving IoT ecosystem designed to detect vehicle accidents, monitor human activity, and analyze heart health in real-time. It bridges the gap between hardware sensors and cloud intelligence to provide autonomous emergency response.
 
-### 🌟 Key Features
+### Key Features
 
-* **⚡ Instant Crash Detection:** Uses MPU6050 accelerometer & gyroscope data to identify impacts.
-* **❤️ ECG Heart Analysis:** Neural network-based classification of 5 different heartbeat types.
-* **🏃‍♂️ Human Activity Recognition:** Distinguishes between 13 activities (Running, Falling, Sitting, etc.).
-* **☁️ Cloud Sync:** Real-time bi-directional telemetry via **Firebase Realtime Database**.
-* **📱 Guardian App:** Cross-platform (Flutter) interface for family monitoring, live tracking, and health metrics.
+* ** Instant Crash Detection:** Uses MPU6050 accelerometer & gyroscope data to identify impacts.
+* ** ECG Heart Analysis:** Neural network-based classification of 5 different heartbeat types.
+* ** Human Activity Recognition:** Distinguishes between 13 activities (Running, Falling, Sitting, etc.).
+* ** Cloud Sync:** Real-time bi-directional telemetry via **Firebase Realtime Database**.
+* ** Guardian App:** Cross-platform (Flutter) interface for family monitoring, live tracking, and health metrics.
 
 ---
 <a id="architecture"></a>
-## 🏗️ System Architecture
+##  System Architecture
 The system operates on a "Sense-Think-Act" loop distributed across Edge (ESP32), Cloud (Firebase), and Client (App).
 
 ```mermaid
@@ -74,11 +74,11 @@ style C fill:#111827,stroke:#fbbf24,stroke-width:2px,color:#ffffff
 ```
 
 <a id="ml-models"></a>
-## 🧠 Machine Learning Core
+##  Machine Learning Core
 
 The intelligence of Aegis Guardian relies on three distinct models located in the `backend/` directory.
 
-### 1. ❤️ ECG Heartbeat Classification (`ecg_heartbeat_.ipynb`)
+### 1. ECG Heartbeat Classification (`ecg_heartbeat_.ipynb`)
 A **Neural Network** designed to identify heart conditions based on ECG waveforms.
 - **Input:** 187 numerical features representing a single heartbeat waveform.
 - **Output:** Probability distribution over 5 classes.
@@ -89,14 +89,14 @@ A **Neural Network** designed to identify heart conditions based on ECG waveform
   - `3`: Fusion Beats
   - `4`: Unknown Beats
 
-### 2. 🚨 Binary Fall Detection (`fallDetection_fall_nofall.ipynb`)
+### 2. Binary Fall Detection (`fallDetection_fall_nofall.ipynb`)
 A **Random Forest Classifier** optimized for critical safety alerts.
 - **Goal:** Distinguish between a fall event and normal movement.
 - **Input:** 9 sensor readings (features).
 - **Performance:** Achieved **97.19% Accuracy** on test data.
 - **Output:** Binary Class `1` (Fall) or `0` (No Fall).
 
-### 3. 🏃 Multi-Class Activity Recognition (`fallDetection_MultiClassModel.ipynb`)
+### 3. Multi-Class Activity Recognition (`fallDetection_MultiClassModel.ipynb`)
 A comprehensive system to classify human behavior using raw sensor features (max acceleration, gyro kurtosis, etc.).
 - **Algorithm:** Random Forest Classifier.
 - **Performance:** **72.47% Accuracy** across 13 complex classes.
@@ -112,7 +112,7 @@ A comprehensive system to classify human behavior using raw sensor features (max
 ---
 
 <a id="app-gallery"></a>
-## 🎨 Mobile App Gallery
+## Mobile App Gallery
 > *Built with Flutter. Features a high-contrast 'Dark Mode' for low-light visibility during emergencies.*
 
 <div align="center">
@@ -123,7 +123,7 @@ A comprehensive system to classify human behavior using raw sensor features (max
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 | Folder | Content | Tech Stack |
 | :--- | :--- | :--- |
