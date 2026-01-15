@@ -135,7 +135,7 @@ A comprehensive system to classify human behavior using raw sensor features (max
 ---
 
 <a id="setup"></a>
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. Firmware Setup (ESP32)
 1. Navigate to `firmware/Aegis_esp32/`.
