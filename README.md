@@ -118,7 +118,7 @@ A comprehensive system to classify human behavior using raw sensor features (max
 <div align="center">
   <img src="assets/Home.png" width="30%" alt="Home Screen" />
   <img src="assets/Heart Rate.png" width="30%" alt="Health Metrics" />
-  <img src="assets/screen_sos.png" width="30%" alt="Settings" /> 
+  <img src="assets/Settings.png" width="30%" alt="Settings" /> 
 </div>
 
 ---
