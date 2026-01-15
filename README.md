@@ -116,9 +116,9 @@ A comprehensive system to classify human behavior using raw sensor features (max
 > *Built with Flutter. Features a high-contrast 'Dark Mode' for low-light visibility during emergencies.*
 
 <div align="center">
-  <img src="assets/screen_home.png" width="30%" alt="Home Screen" />
-  <img src="assets/screen_sos.png" width="30%" alt="SOS Alert" />
-  <img src="assets/screen_health.png" width="30%" alt="Health Metrics" />
+  <img src="assets/Home.png" width="30%" alt="Home Screen" />
+  <img src="assets/Heart Rate.png" width="30%" alt="Health Metrics" />
+  <img src="assets/screen_sos.png" width="30%" alt="Settings" /> 
 </div>
 
 ---
