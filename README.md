@@ -20,11 +20,11 @@
 
 ### Key Features
 
-* ** Instant Crash Detection:** Uses MPU6050 accelerometer & gyroscope data to identify impacts.
-* ** ECG Heart Analysis:** Neural network-based classification of 5 different heartbeat types.
-* ** Human Activity Recognition:** Distinguishes between 13 activities (Running, Falling, Sitting, etc.).
-* ** Cloud Sync:** Real-time bi-directional telemetry via **Firebase Realtime Database**.
-* ** Guardian App:** Cross-platform (Flutter) interface for family monitoring, live tracking, and health metrics.
+* **Instant Crash Detection:** Uses MPU6050 accelerometer & gyroscope data to identify impacts.
+* **ECG Heart Analysis:** Neural network-based classification of 5 different heartbeat types.
+* **Human Activity Recognition:** Distinguishes between 13 activities (Running, Falling, Sitting, etc.).
+* **Cloud Sync:** Real-time bi-directional telemetry via **Firebase Realtime Database**.
+* **Guardian App:** Cross-platform (Flutter) interface for family monitoring, live tracking, and health metrics.
 
 ---
 <a id="architecture"></a>
